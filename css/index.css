@@ -1,0 +1,28 @@
+.nav-item {
+    font-size: 20px;
+  }
+  #dscimg {
+    height: 50px;
+  }
+  #dsclink {
+    position: fixed;
+  }
+  .navbar {
+    background-color: black;
+  }
+  .nav-item.nav-link {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+  }
+  .navbar.navbar-expand-lg.fixed-top{
+    padding-bottom: 1px;
+    padding-top:  1px;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+  
