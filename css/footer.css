@@ -32,22 +32,6 @@ span{
   font-size: 30px;
 }
 /* END FOOTER */
-
-
-
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-}
-
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Footer */
@@ -67,17 +51,4 @@ span{
     height: 200px;
   }
   /* End Footer */
-}
-
-
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
 }
