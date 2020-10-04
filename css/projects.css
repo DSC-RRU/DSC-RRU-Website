@@ -1,9 +1,5 @@
 .table{
-<<<<<<< HEAD
-  border-spacing:15px; /* need some space ?*/
-=======
   border-spacing:15px; 
->>>>>>> master
   display:table;
   table-layout:fixed;
   width:100%;
