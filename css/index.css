@@ -1,3 +1,93 @@
+/* documentation */
+body {
+  margin: 0;
+}
+
+.back {
+  height: 100vh;
+  background-image: url(../imgs/aboutUs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+	font-size: 20px;
+	font-family: 'Noticia Text', serif;
+  margin-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+.box {
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+    width: 22vw;
+    min-width: 200px;
+    height: 22vh;
+    min-height: 200px; 
+    margin-left: 3%;
+    padding-left: 5%;
+    float: left;
+}
+
+.title {
+	font-size: 25px;
+	font-family: 'Abril Fatface', cursive;
+	color: #6123e8;
+}
+
+.box-shadow {
+    box-shadow: inset 10px 10px 8px -10px #CCC, inset -10px -10px 8px -10px #CCC;
+}
+
+.content-box{
+    text-align: center;
+    padding: 15px;
+    height: 80%;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.content-box:hover{
+    background:#fff;
+    box-shadow: 2px 2px 15px 0 rgba(135,135,135, 0.4);
+    transition: all 0.5s ease 0s;
+    font-size: 22px;
+    color: red;
+    display: inline-block;
+    background-color: #b3f5a4;
+}
+
+/* pules effect */
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+    box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+      box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+      box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+  }
+}
+
+/* Navigation */
 .nav-item {
   font-size: 20px;
 }
@@ -7,9 +97,11 @@
 #dsclink {
   position: fixed;
 }
+
 .navbar {
   background-color: black;
 }
+
 .nav-item.nav-link {
   margin-left: 8px;
   margin-right: 8px;
@@ -19,12 +111,15 @@
   color: white;
   font-weight: lighter;
 }
+
 .navbar.navbar-expand-lg.fixed-top{
   padding-bottom: 1px;
   padding-top:  1px;
   margin-right: 4px;
   margin-left: 4px;
 }
+
+/* Scroll btn */
 .but1{
     position:absolute;
     right:3%;
@@ -36,6 +131,7 @@
     font-family:tamoha;
     font-size:15px;
 }
+
 .but1:hover{
     box-shadow:5px 5px 15px 5px #079D82 ;
 }
