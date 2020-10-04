@@ -1,5 +1,9 @@
 .table{
+<<<<<<< HEAD
   border-spacing:15px; /* need some space ?*/
+=======
+  border-spacing:15px; 
+>>>>>>> master
   display:table;
   table-layout:fixed;
   width:100%;
@@ -22,4 +26,5 @@ body{
   background-image: url("/imgs/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-top: 65px; 
   }

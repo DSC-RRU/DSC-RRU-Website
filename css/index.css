@@ -1,0 +1,41 @@
+.nav-item {
+  font-size: 20px;
+}
+#dscimg {
+  height: 50px;
+}
+#dsclink {
+  position: fixed;
+}
+.navbar {
+  background-color: black;
+}
+.nav-item.nav-link {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+}
+.navbar.navbar-expand-lg.fixed-top{
+  padding-bottom: 1px;
+  padding-top:  1px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.but1{
+    position:absolute;
+    right:3%;
+    height:37px;
+    width:115px;
+    border-radius:25px;
+    background-image:linear-gradient(60deg,#2BC0E4,#EAECC6 ,#26F2A8 );
+    cursor:pointer;
+    font-family:tamoha;
+    font-size:15px;
+}
+.but1:hover{
+    box-shadow:5px 5px 15px 5px #079D82 ;
+}
