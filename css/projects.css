@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 .table{
-  border-spacing:15px; /* need some space ?*/
+  border-spacing:15px; 
   display:table;
   table-layout:fixed;
   width:100%;
@@ -23,20 +22,5 @@ body{
   background-image: url("/imgs/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-top: 65px; 
   }
-=======
-.but1{
-    position:absolute;
-    right:3%;
-    height:37px;
-    width:115px;
-    border-radius:25px;
-    background-image:linear-gradient(60deg,#2BC0E4,#EAECC6 ,#26F2A8 );
-    cursor:pointer;
-    font-family:tamoha;
-    font-size:15px;
-}
-.but1:hover{
-    box-shadow:5px 5px 15px 5px #079D82 ;
-}
->>>>>>> 44ef893e82ca2b388d357eda6acb738efa3e8ed9
