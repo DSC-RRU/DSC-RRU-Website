@@ -1,14 +1,40 @@
 .but1{
-    position:absolute;
-    right:3%;
-    height:37px;
-    width:115px;
-    border-radius:25px;
-    background-image:linear-gradient(60deg,#2BC0E4,#EAECC6 ,#26F2A8 );
-    cursor:pointer;
-    font-family:tamoha;
-    font-size:15px;
+  position:absolute;
+  right:3%;
+  height:37px;
+  width:115px;
+  border-radius:25px;
+  background-image:linear-gradient(60deg,#2BC0E4,#EAECC6 ,#26F2A8 );
+  cursor:pointer;
+  font-family:tamoha;
+  font-size:15px;
 }
 .but1:hover{
-    box-shadow:5px 5px 15px 5px #079D82 ;
+  box-shadow:5px 5px 15px 5px #079D82 ;
 }
+.table{
+  border-spacing:15px; 
+  display:table;
+  table-layout:fixed;
+  width:100%;
+  height: 250px;
+  }
+.table div{
+  display:table-cell;
+  }
+.adjust{
+  width: 100%;
+  height: 250px;
+  z-index: 1;
+  border: 3px outset white;
+  border-radius: 30px;
+  opacity: 0.9;
+  }
+body{
+  overflow-x: hidden;
+  background-color: black;
+  background-image: url("/imgs/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 65px; 
+  }
