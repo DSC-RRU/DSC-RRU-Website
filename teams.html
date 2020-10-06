@@ -1,52 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Teams</title>
-    <link rel="stylesheet" href="css/teams.css">
-    <script src="js/jquery/jquery-3.5.0.js"> </script>
-    <script src="js/jquery/jqueryscrolldetector.js"> </script>
-    <script src="js/teams.js"> </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/index.css" />
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <!--Font awesome-->
-    <script src="https://kit.fontawesome.com/335036f2c8.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <!-- Navigation Bar Start -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container my-1 mx-1">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapseNav">
-          <span class="fas fa-bars text-light mx-1"></span>
-        </button>
-        <a href="/" class="text-dark font-weight-bold mx-5 pb-1 pt-2" id="dsclink">
-          <img src="/assets/dscrsu.png" id="dscimg" alt="dscrsu" />
+  <title>Teams</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/teams.css">
+  <script src="js/jquery/jquery-3.5.0.js"> </script>
+  <script src="js/jquery/jqueryscrolldetector.js"> </script>
+  <script src="js/teams.js"> </script>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+  <!--Font awesome-->
+  <script src="https://kit.fontawesome.com/335036f2c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation Bar Start -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container my-1 mx-1">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapseNav">
+        <span class="fas fa-bars text-light mx-1"></span>
+      </button>
+      <a href="/" class="text-dark font-weight-bold mx-0 pb-5 pt-1" id="dsclink">
+        <img src="imgs/DSC_LOGO.png" id="dscimg" alt="dscrsu" ALIGN=”left”/>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse flex-grow-0" id="collapseNav">
+      <div class="navbar-nav">
+        <a href="./index.html" class="nav-item nav-link">Home</a>
+        <a href="./AboutUS.html" class="nav-item nav-link">
+          <nobr>About Us</nobr>
+        </a>
+        <a href="./projects.html" class="nav-item nav-link">Projects</a>
+        <a href="./teams.html" class="nav-item nav-link">Teams</a>
+        <a href="./gallery.html" class="nav-item nav-link">Gallery</a>
+        <a href="./contactUs.html" class="nav-item nav-link">
+          <nobr>Contact Us</nobr>
         </a>
       </div>
-      <div class="collapse navbar-collapse flex-grow-0" id="collapseNav">
-        <div class="navbar-nav">
-          <a href="/index.html" class="nav-item nav-link">Home</a>
-          <a href="/AboutUS.html" class="nav-item nav-link">
-            <nobr>About Us</nobr>
-          </a>
-          <a href="/projects.html" class="nav-item nav-link">Projects</a>
-          <a href="/teams.html" class="nav-item nav-link">Teams</a>
-          <a href="/gallery.html" class="nav-item nav-link">Gallery</a>
-          <a href="/contactUs.html" class="nav-item nav-link">
-            <nobr>Contact Us</nobr>
-          </a>
+    </div>
+  </nav>
+  <!-- Navigation bar complete -->
+  <div>
+    <div class="container"></div>
+    <div class="Header">
+      <div id="button">
+        <div class="btn btn-light" style="padding-left: 75px;padding-right: 75px ;">2020</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-6">
+        <div class="container col-md-6 col-lg-6 mx-auto mb-14" >
+          <img src="imgs/CORE_TEAM.png" title="CoreTeam" >
         </div>
       </div>
-    </nav>
-    <!-- Navigation bar complete -->
-    <!-- Scroller -->
-    <button class="but1"> <b>GoTo Top ⇈<b> </button>
-    <br><br>
-  </body>
-  </html>
+    </div>
+    <div class="container">
+      <div class="row mt-6">
+        <div class="container col-md-6 col-lg-6 mx-auto mb-14">
+          <img src="imgs/FRONT_END1.png" title="FrontEnd Team ">
+          <img src="imgs/FRONT_END2.png" title="FrontEnd Team ">
+          <img src="imgs/CYBER_SEC.png" title="Cyber Security Team" >
+        </div>
+        <div class="container col-md-6 col-lg-6 mx-auto mb-14">
+          <img src="imgs/BACK_END1.png" title="BackEnd Team" >
+          <img src="imgs/BACK_END2.png" title="BackEnd Team" >
+          <img src="imgs/BACK_END3.png" title="BackEnd Team" >
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-6">
+        <div class="container col-md-6 col-lg-6 mx-auto mb-14" >
+          <img src="imgs/MANAGEMENT.png" title="Management Team" >
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-6">
+        <div class="container col-md-6 col-lg-6 mx-auto mb-14">
+          <img src="imgs/DESIGN.png" title="Design & Creative Team">
+        </div>
+        <div class="container col-md-6 col-lg-6 mx-auto mb-14">
+          <img src="imgs/SMPR.png" title="Public Relation & Marketing Team">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->      
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="quick" class="col-lg-4 col-md-4 col-sm-4">
+          <span>Quick Links</span><br><br>
+              <a href="https://www.rsu.ac.in" target="_blank">Raksha Shakti University</a><br>
+              <a href="https://docs.google.com/document/d/1DRbb0VUGORYI9epY3INSEfkWT_SO7EKVQTsieeA3MR4/edit" target="_blank">Code of Conduct</a><br>
+              <a href="https://docs.google.com/document/d/1TDQdYO0Dm0osDrFzyqfe1MjemHMJMdpCQFZVUI4Y-qk/edit" target="_blank">FAQs</a><br>
+        </section>
+        <section id="socia" class="col-lg-4 col-md-4 col-sm-4">
+          <span>Social Links</span><br><br>
+              <a href="https://dsc.community.dev/raksha-shakti-university/" target="_blank">Devloper Student Club</a><br>
+              <a href="https://facebook.com/dsc.rsu.7" target="_blank">Facebook</a><br>
+              <a href="https://twitter.com/Dsc__Rsu" target="_blank">Twitter</a><br>
+              <a href="https://www.linkedin.com/in/dsc-rsu-7b53011b8/" target="_blank">Linkedin</a><br>
+              <a href="https://www.instagram.com/dscrsu/" target="_blank">Instagram</a><br>
+        </section>
+        <section id="Scroll" class="col-lg-4 col-md-4 col-sm-4">
+          <span>Scroll To</span><br><br>
+              <a href="aboutus.html">About Us</a><br>
+              <a href="teams.html">Team</a><br>
+              <a href="projects.html">Projects</a><br>
+              <a href="contactus.html">Contact Us</a><br>
+        </section>
+      </div>
+      <div align="center" style="color: white;"> Copyright&copy; Developers Student Club, Raksha Shakti University</div>
+    </div>
+  </footer>
+  <!-- Footer ends -->    
+  <!-- Scroller -->
+  <button class="but1"> <b>GoTo Top ⇈<b> </button>
+  <br><br>
+  </div>
+</body>
+</html>

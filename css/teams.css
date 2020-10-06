@@ -1,14 +1,65 @@
 .but1{
-    position:absolute;
-    right:3%;
-    height:37px;
-    width:115px;
-    border-radius:25px;
-    background-image:linear-gradient(60deg,#2BC0E4,#EAECC6 ,#26F2A8 );
-    cursor:pointer;
-    font-family:tamoha;
-    font-size:15px;
+  position:absolute;
+  right:3%;
+  height:37px;
+  width:115px;
+  border-radius:25px;
+  background-image:linear-gradient(60deg,#2BC0E4,#EAECC6 ,#26F2A8 );
+  cursor:pointer;
+  font-family:tamoha;
+  font-size:15px;
 }
 .but1:hover{
-    box-shadow:5px 5px 15px 5px #079D82 ;
+  box-shadow:5px 5px 15px 5px #079D82 ;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.Header{
+  background-image: url("../imgs/HEAD.jpg");
+  background-size: cover;
+  }
+#button{
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+  height: auto
+}
+.footer{
+  background-image: url("../imgs/FOOTER.jpeg");
+  background-size: cover;
+}
+.cont{
+  border: 0.5px solid darkslategray;
+  padding: 1px;
+  margin-top: 1px;
+  color: white; 
+}
+.a{
+margin: auto;
+text-align: center;
+padding: 30px;
+color: white;
 }
