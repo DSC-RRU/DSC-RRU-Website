@@ -1,3 +1,19 @@
+.main {
+    padding-top: 5.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.gal-img {
+    width:29.5vw;
+    height:40vh;
+}
+
+.utube {
+    width:49%;
+    height:45vh;
+}
+
 .but1{
     position:absolute;
     right:3%;
