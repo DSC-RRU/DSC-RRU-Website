@@ -1,8 +1,5 @@
 /* documentation */
-*{
-  margin: 0;
-  padding: 0;
-}
+
 /* Navigation Bar Start */
 .header-nav{
   display: flex;
@@ -58,14 +55,56 @@
 .but1:hover{
   box-shadow:5px 5px 15px 5px #079D82 ;
 }
+.employee-container {
+  margin-top:70px;
+}
+.employee {
+  background-color:black;
+  margin:40px auto;
+  margin-right: -20px;
+  display:block;
+  overflow:hidden;
+  height:250px;
+  border-radius:30px;
+  -webkit-box-shadow: 0px 0px 31px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 31px -19px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 31px -19px rgba(0,0,0,0.75);
+}
+.employee:hover > .employee-image {
+  margin-top:-100px;
+}
+.employee-image {
+  height:270px;
+  width:100%;
+  transition:0.5s;
+}
+.employee-name {
+  color:#fff;
+  padding:0px;
+}
+.employee-name h1 {
+  font-size:20px;
+}
+.employee-name span {
+  font-size:17px;
+  padding:0px;
+}
+.span1{
+ color: white;
+}
+@media(min-width:568px){
 .table{
-  border-spacing:15px; 
-  display:table;
+  border-spacing:0px; 
   table-layout:fixed;
+  display: flex;
   width:100%;
   height: 250px;
+  padding-bottom: 300px;
+  position: relative;
+  bottom: 80px;
   }
-.table div{
+}
+.table .div1{
   display:table-cell;
   }
 .adjust{
@@ -79,10 +118,9 @@
 body{
   overflow-x: hidden;
   background-color: black;
-  background-image: url("/imgs/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-top: 65px; 
+  margin: 0;
   }
   /* Media - Queries */
 @media screen and (min-width: 769px){
