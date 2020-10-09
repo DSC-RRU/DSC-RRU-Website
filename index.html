@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>DSC RSU</title>
+<html lang="en">
+  <head>
+    <title>DSC RSU</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/index.css">
     <script src="js/jquery/jquery-3.5.0.js"> </script>
     <script src="js/jquery/jqueryscrolldetector.js"> </script>
     <script src="js/index.js"> </script>
-</head>
-<body>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Noticia+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css" />
-    <title>Home</title>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
     <!-- JS, Popper.js, and jQuery -->
@@ -24,34 +23,105 @@
     <script src="https://kit.fontawesome.com/335036f2c8.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <!-- Navigation Bar Start -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container my-1 mx-1">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapseNav">
-          <span class="fas fa-bars text-light mx-1"></span>
-        </button>
-        <a href="/" class="text-dark font-weight-bold mx-5 pb-1 pt-2" id="dsclink">
-          <img src="/assets/dscrsu.png" id="dscimg" alt="dscrsu" />
-        </a>
-      </div>
-      <div class="collapse navbar-collapse flex-grow-0" id="collapseNav">
-        <div class="navbar-nav">
-          <a href="/index.html" class="nav-item nav-link">Home</a>
-          <a href="/AboutUS.html" class="nav-item nav-link">
-            <nobr>About Us</nobr>
-          </a>
-          <a href="/projects.html" class="nav-item nav-link">Projects</a>
-          <a href="/teams.html" class="nav-item nav-link">Teams</a>
-          <a href="/gallery.html" class="nav-item nav-link">Gallery</a>
-          <a href="/contactUs.html" class="nav-item nav-link">
-            <nobr>Contact Us</nobr>
-          </a>
+ <!-- Navigation Bar Start -->
+    <header class="header-nav">  
+        <div class="header-left">
+          <img src="./imgs/DSC_LOGO.png">
         </div>
+        <input type="checkbox" class="nav-toggle" id="nav-toggle">
+        <div class="header-right">
+          <a href="./index.html" class="current-active header-right-link"><li class="header-right-link"> 
+              Home
+          </li></a>
+          <a href="./AboutUS.html" class="header-right-link"><li class="header-right-link"> 
+              About Us
+          </li></a>
+          <a href="./projects.html" class="header-right-link"><li class="header-right-link"> 
+              Projects
+          </li></a>
+          <a href="./teams.html" class="header-right-link"><li class="header-right-link"> 
+              Teams
+          </li></a>
+          <a href="./gallery.html" class="header-right-link"><li class="header-right-link"> 
+              Gallery
+          </li></a>
+          <a href="./contactUs.html" class="header-right-link"><li class="header-right-link"> 
+              Contact Us
+          </li></a>
+        </div>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <i class="fa fa-bars" style="font-size:28px;color: white"></i>
+        </label>
+    </header>
+    <!-- Navigation Bar Ends -->
+    <!-- BackGround Image Of RSU Starts-->
+      <div class="background-rsu">
+        <img src="./imgs/p1.png">
       </div>
-    </nav>
-    <!-- Navigation bar complete -->
-    <!-- Scroller -->
-    <button class="but1"> <b>GoTo Top ⇈<b> </button>
-    <br><br>
-  </body>
-  </html>
+    <!-- BackGround Image Of RSU Starts-->
+    <div class="back">
+        <div class="container">
+            <b class="title"><i>Who are we?</i></b><br>
+    		Developer Student Clubs are completely non-profitable university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.</br>
+    		DSC RSU was established in August, 2020 at Raksha Shakti University campus for School of Information Technology and Cyber Security. The official website under Google Developer’s DSC can be found <a href="https://dsc.community.dev/raksha-shakti-university/">here</a> and the website under the Club can be found <a href="https://dsc-rsu.github.io/DSC-RSU-Website/">here</a>
+    	</div>
+    	<div class="container">
+    		<b class="title"><i>What is DSC RSU’s Vision?</i></b><br>
+            The DSC RSU aims to provide a 360 degree view for students to polish their skills starting from communication to projects to applying to their dream companies. Main objective of the DSC RSU is to provide every possible resource be it technical or physical to all the interested students who join the Club as a Core Team and a Member of Club to excel in their careers by providing them practical sessions and seminars under Google Developer Experts and well known mentors. It plans to prepare students for careers in private and public industries.</br>
+    		Moreover,  for the newbie students who want to deep dive into their interested field will also have a perfect environment to overcome their problems with the help of this community.
+    	</div>
+    	<br>
+    	<div class="box">
+        	<div class="content-box text-center" style="opacity: 1;">
+                <u>Connect</u>
+                <p>Meet other students on campus interested in developer technologies</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content-box text-center" style="opacity: 1;">
+                <u>Learn</u>
+                <p>Hands-on workshops, in-person training and project building activities</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content-box text-center" style="opacity: 1;">
+                <u>Grow</u>
+                <p>Give back to your community by helping others learn as well</p>
+            </div>
+        </div>
+    </div>
+  <!-- Footer -->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="quick" class="col-lg-4 col-md-4 col-sm-4">
+          <span>Quick Links</span><br><br>
+              <a href="https://www.rsu.ac.in" target="_blank">Raksha Shakti University</a><br>
+              <a href="https://docs.google.com/document/d/1DRbb0VUGORYI9epY3INSEfkWT_SO7EKVQTsieeA3MR4/edit" target="_blank">Code of Conduct</a><br>
+              <a href="https://docs.google.com/document/d/1TDQdYO0Dm0osDrFzyqfe1MjemHMJMdpCQFZVUI4Y-qk/edit" target="_blank">FAQs</a><br>
+        </section>
+        <section id="socia" class="col-lg-4 col-md-4 col-sm-4">
+          <span>Social Links</span><br><br>
+              <a href="https://dsc.community.dev/raksha-shakti-university/" target="_blank">Devloper Student Club</a><br>
+              <a href="https://facebook.com/dsc.rsu.7" target="_blank">Facebook</a><br>
+              <a href="https://twitter.com/Dsc__Rsu" target="_blank">Twitter</a><br>
+              <a href="https://www.linkedin.com/in/dsc-rsu-7b53011b8/" target="_blank">Linkedin</a><br>
+              <a href="https://www.instagram.com/dscrsu/" target="_blank">Instagram</a><br>
+        </section>
+        <section id="Scroll" class="col-lg-4 col-md-4 col-sm-4">
+          <span>Scroll To</span><br><br>
+              <a href="aboutus.html">About Us</a><br>
+              <a href="teams.html">Team</a><br>
+              <a href="projects.html">Projects</a><br>
+              <a href="contactus.html">Contact Us</a><br>
+        </section>
+      </div>
+      <div align="center" style="color: white;"> Copyright&copy; Developers Student Club, Raksha Shakti University</div>
+    </div>
+  </footer>
+  <!-- Footer ends -->
+  <!-- Scroller -->
+  <button class="but1"> <b>GoTo Top ⇈<b> </button>
+  <br><br>
+</body>
+</html>

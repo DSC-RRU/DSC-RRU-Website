@@ -1,30 +1,131 @@
-.nav-item {
-  font-size: 20px;
+/* documentation */
+*{
+  margin: 0;
+  padding: 0;
 }
-#dscimg {
-  height: 50px;
-}
-#dsclink {
-  position: fixed;
-}
-.navbar {
+/* Navigation Bar Start */
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
   background-color: black;
+  color: red;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
-.nav-item.nav-link {
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-top: auto;
-  margin-bottom: auto;
-  font-size: 20px;
+.header-left{
+  display: flex;
+  justify-content: flex-start;
+  margin: 8px 0 4px 20px;
+}
+.header-left img{
+  height: 52px;
+}
+.header-right{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+.header-right a{
+  margin-right: 32px;
+  color: #626e6a;
+}
+.header-right a:active{
+  color: red;
+}
+.header-right a:hover{
   color: white;
-  font-weight: lighter;
+  text-decoration: none;
+  transition-delay: 0.15s;
 }
-.navbar.navbar-expand-lg.fixed-top{
-  padding-bottom: 1px;
-  padding-top:  1px;
-  margin-right: 4px;
-  margin-left: 4px;
+.header-right .current-active{
+  color: white;
 }
+.nav-toggle{
+    display: none;
+}
+/*Navigation Bar End */
+.background-rsu img{
+  width: 100%;
+}
+.back {
+  height: 100vh;
+  background-image: url(../imgs/aboutUs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+	font-size: 20px;
+	font-family: 'Noticia Text', serif;
+  margin-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+.box {
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+    width: 22vw;
+    min-width: 200px;
+    height: 22vh;
+    min-height: 200px; 
+    margin-left: 3%;
+    padding-left: 5%;
+    float: left;
+}
+.title {
+	font-size: 25px;
+	font-family: 'Abril Fatface', cursive;
+	color: #6123e8;
+}
+.box-shadow {
+    box-shadow: inset 10px 10px 8px -10px #CCC, inset -10px -10px 8px -10px #CCC;
+}
+.content-box{
+    text-align: center;
+    padding: 15px;
+    height: 80%;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.content-box:hover{
+    background:#fff;
+    box-shadow: 2px 2px 15px 0 rgba(135,135,135, 0.4);
+    transition: all 0.5s ease 0s;
+    font-size: 22px;
+    color: red;
+    background-color: #b3f5a4;
+}
+/* pules effect */
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+    box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+      box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+      box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+  }
+}
+/* Scroll btn */
 .but1{
     position:absolute;
     right:3%;
@@ -38,4 +139,59 @@
 }
 .but1:hover{
     box-shadow:5px 5px 15px 5px #079D82 ;
+}
+/* Media - Queries */
+@media screen and (min-width: 769px){
+  .nav-toggle-label{
+    display: none;
+  }
+}
+@media all and (max-width: 1024px){
+  .header-left img{
+    height: 36px;
+  }
+  .header-right-link{
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  .header-left{
+    margin-top: 8px;
+  }
+  .header-right{
+    margin-top: 14px;
+  }
+}
+@media all and (max-width: 769px){
+  .header-left{
+    width: 100%;
+    justify-content: space-around;
+  }
+  .header-right{
+    flex-wrap: nowrap;
+    overflow: hidden;
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .header-right-link{
+    margin: 0;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+  }
+  .header-right-link a{
+    margin-bottom: 0;
+  }
+  .nav-toggle:checked ~ .header-right{
+    display: block;
+  }
+  .nav-toggle-label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 16px;
+  }
 }

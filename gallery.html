@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Gallery</title>
+<html lang="en">
+  <head>
+    <title>Gallery</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/index.css" />
     <script src="js/jquery/jquery-3.5.0.js"> </script>
     <script src="js/jquery/jqueryscrolldetector.js"> </script>
     <script src="js/gallery.js"> </script>
-</head>
-<body>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/index.css" />
-    <title>Gallery</title>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
     <!-- JS, Popper.js, and jQuery -->
@@ -31,25 +28,55 @@
           <span class="fas fa-bars text-light mx-1"></span>
         </button>
         <a href="/" class="text-dark font-weight-bold mx-5 pb-1 pt-2" id="dsclink">
-          <img src="/assets/dscrsu.png" id="dscimg" alt="dscrsu" />
+          <img src="/imgs/dscrsu.png" id="dscimg" alt="dscrsu" />
         </a>
       </div>
       <div class="collapse navbar-collapse flex-grow-0" id="collapseNav">
         <div class="navbar-nav">
-          <a href="/index.html" class="nav-item nav-link">Home</a>
-          <a href="/AboutUS.html" class="nav-item nav-link">
+          <a href="./index.html" class="nav-item nav-link">Home</a>
+          <a href="./AboutUS.html" class="nav-item nav-link">
             <nobr>About Us</nobr>
           </a>
-          <a href="/projects.html" class="nav-item nav-link">Projects</a>
-          <a href="/teams.html" class="nav-item nav-link">Teams</a>
-          <a href="/gallery.html" class="nav-item nav-link">Gallery</a>
-          <a href="/contactUs.html" class="nav-item nav-link">
+          <a href="./projects.html" class="nav-item nav-link">Projects</a>
+          <a href="./teams.html" class="nav-item nav-link">Teams</a>
+          <a href="./gallery.html" class="nav-item nav-link">Gallery</a>
+          <a href="./contactUs.html" class="nav-item nav-link">
             <nobr>Contact Us</nobr>
           </a>
         </div>
       </div>
     </nav>
     <!-- Navigation bar complete -->
+    <!-- Footer -->
+    <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="quick" class="col-lg-4 col-md-4 col-sm-4">
+          <span>Quick Links</span><br><br>
+              <a href="https://www.rsu.ac.in" target="_blank">Raksha Shakti University</a><br>
+              <a href="https://docs.google.com/document/d/1DRbb0VUGORYI9epY3INSEfkWT_SO7EKVQTsieeA3MR4/edit" target="_blank">Code of Conduct</a><br>
+              <a href="https://docs.google.com/document/d/1TDQdYO0Dm0osDrFzyqfe1MjemHMJMdpCQFZVUI4Y-qk/edit" target="_blank">FAQs</a><br>
+        </section>
+        <section id="socia" class="col-lg-4 col-md-4 col-sm-4">
+          <span>Social Links</span><br><br>
+              <a href="https://dsc.community.dev/raksha-shakti-university/" target="_blank">Devloper Student Club</a><br>
+              <a href="https://facebook.com/dsc.rsu.7" target="_blank">Facebook</a><br>
+              <a href="https://twitter.com/Dsc__Rsu" target="_blank">Twitter</a><br>
+              <a href="https://www.linkedin.com/in/dsc-rsu-7b53011b8/" target="_blank">Linkedin</a><br>
+              <a href="https://www.instagram.com/dscrsu/" target="_blank">Instagram</a><br>
+        </section>
+        <section id="Scroll" class="col-lg-4 col-md-4 col-sm-4">
+          <span>Scroll To</span><br><br>
+              <a href="aboutus.html">About Us</a><br>
+              <a href="teams.html">Team</a><br>
+              <a href="projects.html">Projects</a><br>
+              <a href="contactus.html">Contact Us</a><br>
+        </section>
+      </div>
+      <div align="center" style="color: white;"> Copyright&copy; Developers Student Club, Raksha Shakti University</div>
+    </div>
+  </footer>
+    <!-- Footer -->
     <!-- Scroller -->
     <button class="but1"> <b>GoTo Top ⇈<b> </button>
     <br><br>
