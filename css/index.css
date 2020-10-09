@@ -10,10 +10,10 @@
   flex-wrap: wrap;
   list-style-type: none;
   background-color: black;
-  color: red;
   position: fixed;
   width: 100%;
   z-index: 1000;
+  top:0;
 }
 .header-left{
   display: flex;
@@ -31,9 +31,6 @@
 .header-right a{
   margin-right: 32px;
   color: #626e6a;
-}
-.header-right a:active{
-  color: red;
 }
 .header-right a:hover{
   color: white;
@@ -182,7 +179,7 @@
     padding-bottom: 5px;
   }
   .header-right-link a{
-    margin-bottom: 0;
+    margin: 0 0 3px 0;
   }
   .nav-toggle:checked ~ .header-right{
     display: block;
