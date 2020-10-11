@@ -1,89 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Gallery</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/gallery.css">
-    <link rel="stylesheet" href="css/index.css" />
-    <script src="js/jquery/jquery-3.5.0.js"> </script>
-    <script src="js/jquery/jqueryscrolldetector.js"> </script>
-    <script src="js/gallery.js"> </script>
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <!--Font awesome-->
-    <script src="https://kit.fontawesome.com/335036f2c8.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+ 	<head>
+    	<title>Gallery</title>
+    	<meta charset="UTF-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/footer.css">
+	    <link rel="stylesheet" href="css/gallery.css">
+	    <link rel="stylesheet" href="css/index.css" />
+	    <script src="js/jquery/jquery-3.5.0.js"> </script>
+	    <script src="js/jquery/jqueryscrolldetector.js"> </script>
+	    <script src="js/gallery.js"> </script>
+	    <!-- CSS only -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+	    <!-- JS, Popper.js, and jQuery -->
+	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	    <!--Font awesome-->
+	    <script src="https://kit.fontawesome.com/335036f2c8.js" crossorigin="anonymous"></script>
+  	</head>
+<body>
     <!-- Navigation Bar Start -->
     <header class="header-nav">  
         <div class="header-left">
-          <img src="./imgs/DSC_LOGO.png">
+          	<img src="./imgs/DSC_LOGO.png">
         </div>
         <input type="checkbox" class="nav-toggle" id="nav-toggle">
         <div class="header-right">
-          <a href="./index.html" class="header-right-link"><li class="header-right-link"> 
+          	<a href="./index.html" class="header-right-link"><li class="header-right-link"> 
               Home
-          </li></a>
-          <a href="#" class="header-right-link"><li class="header-right-link"> 
+          	</li></a>
+          	<a href="#" class="header-right-link"><li class="header-right-link"> 
               About Us
-          </li></a>
-          <a href="./projects.html" class="header-right-link"><li class="header-right-link"> 
+          	</li></a>
+          	<a href="./projects.html" class="header-right-link"><li class="header-right-link"> 
               Projects
-          </li></a>
-          <a href="./teams.html" class="header-right-link"><li class="header-right-link"> 
+          	</li></a>
+          	<a href="./teams.html" class="header-right-link"><li class="header-right-link"> 
               Teams
-          </li></a>
-          <a href="./gallery.html" class="header-right-link current-active"><li class="header-right-link"> 
+          	</li></a>
+          	<a href="./gallery.html" class="header-right-link current-active"><li class="header-right-link"> 
               Gallery
-          </li></a>
-          <a href="./contactUs.html" class="header-right-link"><li class="header-right-link"> 
+          	</li></a>
+          	<a href="./contactUs.html" class="header-right-link"><li class="header-right-link"> 
               Contact Us
-          </li></a>
+          	</li></a>
         </div>
         <label for="nav-toggle" class="nav-toggle-label">
-          <i class="fa fa-bars" style="font-size:28px;color: white"></i>
+          	<i class="fa fa-bars" style="font-size:28px;color: white"></i>
         </label>
     </header>
     <!-- Navigation Bar Ends -->
+    <!-- Code for page Starts-->
+	<div class="space">
+		<table class="center">
+		<tr> 
+	      	<td><div1><iframe class="u-tube" src="https://www.youtube.com/embed/wTLe8nwJ_Lw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td> 
+	      	<td><div2><iframe class="u-tube" src="https://www.youtube.com/embed/5HStQYsx5FE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+	   	</tr> 
+	   	</table>
+	    <table class="center"> 
+	   		<tr> 
+	      	<td><div1><img class="gal-images" src="./imgs/gallery/ppl1.jpg"></div></td> 
+	      	<td><div2><img class="gal-images" src="./imgs/gallery/ppl3.jpg" ></div></td>
+	      	<td><div3><img class="gal-images" src="./imgs/gallery/ppl2.jpg" ></div></td> 
+	   		</tr>
+	   		<tr class="column-2"> 
+	      	<td><div1><img class="gal-images" src="./imgs/gallery/ppl4.jpg"></div></td> 
+	      	<td><div2><img class="gal-images" src="./imgs/gallery/ppl5.jpg" ></div></td>
+	   		</tr> 
+		</table>
+	</div>
+    <!-- Code for page Ends -->
     <!-- Footer -->
     <footer class="panel-footer">
     <div class="container">
-      <div class="row">
+    <div class="row">
         <section id="quick" class="col-lg-4 col-md-4 col-sm-4">
-          <span>Quick Links</span><br><br>
-              <a href="https://www.rsu.ac.in" target="_blank">Raksha Shakti University</a><br>
-              <a href="https://docs.google.com/document/d/1DRbb0VUGORYI9epY3INSEfkWT_SO7EKVQTsieeA3MR4/edit" target="_blank">Code of Conduct</a><br>
-              <a href="https://docs.google.com/document/d/1TDQdYO0Dm0osDrFzyqfe1MjemHMJMdpCQFZVUI4Y-qk/edit" target="_blank">FAQs</a><br>
+          	<span>Quick Links</span><br><br>
+              	<a href="https://www.rsu.ac.in" target="_blank">Raksha Shakti University</a><br>
+              	<a href="https://docs.google.com/document/d/1DRbb0VUGORYI9epY3INSEfkWT_SO7EKVQTsieeA3MR4/edit" target="_blank">Code of Conduct</a><br>
+              	<a href="https://docs.google.com/document/d/1TDQdYO0Dm0osDrFzyqfe1MjemHMJMdpCQFZVUI4Y-qk/edit" target="_blank">FAQs</a><br>
         </section>
         <section id="socia" class="col-lg-4 col-md-4 col-sm-4">
-          <span>Social Links</span><br><br>
-              <a href="https://dsc.community.dev/raksha-shakti-university/" target="_blank">Devloper Student Club</a><br>
-              <a href="https://facebook.com/dsc.rsu.7" target="_blank">Facebook</a><br>
-              <a href="https://twitter.com/Dsc__Rsu" target="_blank">Twitter</a><br>
-              <a href="https://www.linkedin.com/in/dsc-rsu-7b53011b8/" target="_blank">Linkedin</a><br>
-              <a href="https://www.instagram.com/dscrsu/" target="_blank">Instagram</a><br>
-        </section>
+            <span>Social Links</span><br><br>
+	            <a href="https://dsc.community.dev/raksha-shakti-university/" target="_blank">Devloper Student Club</a><br>
+	            <a href="https://facebook.com/dsc.rsu.7" target="_blank">Facebook</a><br>
+	            <a href="https://twitter.com/Dsc__Rsu" target="_blank">Twitter</a><br>
+	            <a href="https://www.linkedin.com/in/dsc-rsu-7b53011b8/" target="_blank">Linkedin</a><br>
+	            <a href="https://www.instagram.com/dscrsu/" target="_blank">Instagram</a><br>
+	    </section>
         <section id="Scroll" class="col-lg-4 col-md-4 col-sm-4">
-          <span>Scroll To</span><br><br>
-              <a href="aboutus.html">About Us</a><br>
-              <a href="teams.html">Team</a><br>
-              <a href="projects.html">Projects</a><br>
-              <a href="contactus.html">Contact Us</a><br>
+          	<span>Scroll To</span><br><br>
+              	<a href="aboutus.html">About Us</a><br>
+              	<a href="teams.html">Team</a><br>
+              	<a href="projects.html">Projects</a><br>
+           	   	<a href="contactus.html">Contact Us</a><br>
         </section>
-      </div>
-      <div align="center" style="color: white;"> Copyright&copy; Developers Student Club, Raksha Shakti University</div>
     </div>
-  </footer>
+    <div align="center" style="color: white;"> Copyright&copy; Developers Student Club, Raksha Shakti University</div>
+    </div>
+	</footer>
     <!-- Footer -->
     <!-- Scroller -->
     <button class="but1"> <b>GoTo Top ⇈<b> </button>
     <br><br>
-  </body>
-  </html>
+</body>
+</html>

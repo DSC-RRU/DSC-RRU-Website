@@ -44,6 +44,27 @@
     display: none;
 }
 /*Navigation Bar End */
+/* Code Starts*/
+.space{ 
+    margin-top:55px; 
+    padding: 20px;
+}
+.gal-images{
+    width:300px; 
+    height:300px;
+}
+.u-tube{
+    width:500px; 
+    height:300px;
+}
+table {
+    width:60%;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Code Ends*/
 .but1{
     position:absolute;
     right:3%;
