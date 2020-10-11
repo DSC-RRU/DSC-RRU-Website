@@ -17,3 +17,16 @@ DSC RSU was established in August, 2020 at Raksha Shakti University campus for S
 - Last but most awaited one, to arrange one DevFest or GDG event in RSU
 
 *This project is build by students of this Developers Student Club Raksha Shakti University Chapter*
+
+---
+## Tech
+<img src="https://img.shields.io/badge/-HTML-orange" alt="HTML badge" />&nbsp;
+<img src="https://img.shields.io/badge/-CSS-blueviolet" alt="CSS badge" />&nbsp;
+<img src="https://img.shields.io/badge/-JavaScript-gold" alt="JavaScript badge" />&nbsp;
+
+---
+
+## Stats
+<img src="https://img.shields.io/github/contributors/DSC-RSU/DSC-RSU-Website" alt="Contributors"/>&nbsp;
+<img src="https://img.shields.io/github/issues/DSC-RSU/DSC-RSU-Website" alt="Issues badge"/>&nbsp;
+<img src="https://img.shields.io/github/issues-pr/DSC-RSU/DSC-RSU-Website?color=red" alt="Pull request badge" />
