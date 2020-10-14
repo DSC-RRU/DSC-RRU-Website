@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.mphoto>img
+{
+	width:100%;
+}
+.mphoto
+{
+	height: 100%;
+	width:100%;
+	margin-bottom: 30px;
+}
+.bphoto
+{
+	height: 100%;
+	width:100%;
+	margin:10px;
+}
+.bphoto span
+{
+	text-align: center;
+	font-size: 1.6em;
+	font-family: Times New Roman;
+	/*text-transform: uppercase;*/
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+}
+#map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  
+  .bphoto{
+  	padding-left: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .bphoto{
+  	padding-left: 100px;
+  }
+}
+
+@media (max-width: : 499px)
+{
+	.bphoto{
+		padding-left: 100px;
+		width: 0%;
+	}
+	#pas{
+		width:200px;
+	}
+	#pas span{
+		text-align: center;
+	}
+}
+@media (min-width: 500px) and (max-width: 520px)
+{
+	.bphoto{
+		padding-left: 100px;
+		width: 0%;
+	}
+	#pas{
+		width:200px;
+	}
+	#pas span{
+		text-align: center;
+	}
+}
+@media (min-width: 521px) and (max-width: 580px)
+{
+	.bphoto{
+		padding-left: 100px;
+		width: 0%;
+	}#pas{
+		width:200px;
+	}
+	#pas span{
+		text-align: center;
+	}
+}
+@media (min-width: 581px) and (max-width: 610px)
+{
+	.bphoto{
+		padding-left: 120px;
+		width: 0%;
+	}
+	#pas{
+		width:200px;
+	}
+	#pas span{
+		text-align: center;
+	}
+}
+@media (min-width: 611px) and (max-width: 700px)
+{
+	.bphoto{
+		padding-left: 150px;
+		width: 0%;
+	}
+	#pas{
+		width:200px;
+	}
+	#pas span{
+		text-align: center;
+	}
+}
+@media (min-width: 701px) and (max-width: 767px)
+{
+	.bphoto{
+		padding-left: 170px;
+		width: 0%;
+	}
+	#pas{
+		width:200px;
+	}
+	#pas span{
+		text-align: center;
+	}
+}
