@@ -58,10 +58,49 @@
 .but1:hover{
     box-shadow:5px 5px 15px 5px #079D82 ;
 }
+.title{
+  top:40px;
+   width:100%;
+   height:200px;
+   position: relative;
+ }
+ .text{
+   position: relative;
+  font-size: 50px;
+   left: 10%;
+   top: -128px;
+   color: white;
+   display: block;
+  }
+ .text1{
+   font-size: 20px;
+   color: white;
+   top:5px;
+   position: relative;
+   padding-right: 10%;
+   left: 6px;
+ }
+ body{
+  overflow-x: hidden;
+ }
 /* Media - Queries */
 @media screen and (min-width: 769px){
   .nav-toggle-label{
     display: none;
+  }
+}
+ @media screen and (max-width: 689px){
+  .text{
+    position: relative;
+   font-size: 35px;
+    left: 10%;
+    top: -128px;
+    color: white;
+    display: block;
+    }
+  .text1{
+    font-size: 15px;
+    left: 6px;
   }
 }
 @media all and (max-width: 1024px){
@@ -113,4 +152,3 @@
     margin-left: 16px;
   }
 }
-
