@@ -52,11 +52,17 @@
   border-radius:25px;
   background-image:linear-gradient(60deg,#2BC0E4,#EAECC6 ,#26F2A8 );
   cursor:pointer;
-  font-family:tamoha;
-  font-size:15px;
 }
 .but1:hover{
-  box-shadow:5px 5px 15px 5px #079D82 ;
+  box-shadow:3px 3px 10px 3px #079D82 ;
+}
+.b1{
+  top:20%;
+  left:19%;
+  position: relative;
+  font-family:tamoha;
+  font-size:15px;
+  color: black;
 }
 body {
   margin: 0;
