@@ -2,25 +2,17 @@
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;
-  /*padding-bottom: 30px;*/
+  padding-bottom: 30px;
   background-color: #222;
   border-top: 0;
-  width: 100%;
-  height: auto;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
 }
-.container{
-  padding-right: 0px;
-  padding-left: 0px;
-  text-align: center;
-  padding-top: 0px;
-}
 section{
   border: 1px dotted grey;
   width: 100%;
-  height: 220px;
+  height: 250px;
   font-family: Times new roman;
 }
 a{
@@ -41,34 +33,22 @@ span{
 }
 /* END FOOTER */
 /********** Extra small devices only **********/
-@media (min-height: 576px) and (max-width: 767px) {
+@media (max-width: 767px) {
   /* Footer */
   .panel-footer section {
     margin-bottom: 30px;
     text-align: center;
   }
-  /*.panel-footer section:nth-child(3) {
-    margin-bottom: 0;
-  }*/
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
   .panel-footer section hr {
     width: 50%;
   }
   section{
     border: 1px dotted grey;
     width: 100%;
-    height: 250px;
+    height: 200px;
   }
   /* End Footer */
-}
-@media (max-width: 575px) {
-
-  #quick{
-    height:155px;
-  }
-  #socia{
-    height:210px;
-  }
-  #scroll{
-    height:175px;
-  }
 }
