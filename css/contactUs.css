@@ -48,19 +48,43 @@ body{
 }
 /*Navigation Bar End */
 .but1{
-    position:absolute;
-    right:3%;
-    height:37px;
-    width:115px;
-    border-radius:25px;
-    background-image:linear-gradient(60deg,#2BC0E4,#EAECC6 ,#26F2A8 );
-    cursor:pointer;
-    font-family:tamoha;
-    font-size:15px;
+  position:absolute;
+  right:3%;
+  height:37px;
+  width:115px;
+  border-radius:25px;
+  background-image:linear-gradient(60deg,#2BC0E4,#EAECC6 ,#26F2A8 );
+  cursor:pointer;
 }
 .but1:hover{
-    box-shadow:5px 5px 15px 5px #079D82 ;
+  box-shadow:3px 3px 10px 3px #079D82 ;
 }
+.b1{
+  top:20%;
+  left:19%;
+  position: relative;
+  font-family:tamoha;
+  font-size:15px;
+  color: black;
+}
+.title{
+  top:40px;
+   width:100%;
+   height:200px;
+   position: relative;
+   z-index: 0;
+   opacity: 0.9;
+ }
+ .text{
+   position: relative;
+   font-size: 2.5vw;
+   left: 10%;
+   top: -65px;
+   color: white;
+ }
+ body{
+  overflow-x: hidden;
+ }
 /* Media - Queries */
 @media screen and (min-width: 769px){
   .nav-toggle-label{
@@ -114,5 +138,12 @@ body{
     left: 0;
     margin-top: 10px;
     margin-left: 16px;
+  }
+}
+@media all and (max-width:605px){
+  .text{
+    font-size: 17px;
+     position: relative;
+     left: 3%;
   }
 }
