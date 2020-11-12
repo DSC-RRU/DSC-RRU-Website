@@ -1,0 +1,193 @@
+/* ------------------ NAVBAR STARTS ---------------- */
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top:0;
+}
+.header-left{
+  display: flex;
+  justify-content: flex-start;
+  margin: 8px 0 4px 20px;
+}
+.header-left img{
+  height: 52px;
+}
+.header-right{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+.header-right a{
+  margin-right: 32px;
+  color: #626e6a;
+}
+.header-right a:hover{
+  color: white;
+  text-decoration: none;
+  transition-delay: 0.15s;
+}
+.header-right .current-active{
+  color: white;
+}
+.nav-toggle{
+    display: none;
+}
+
+/* ------------------- NAVBAR ENDS ------------------- */
+
+/* Media - Queries */
+@media screen and (min-width: 769px){
+  .nav-toggle-label{
+    display: none;
+  }
+}
+@media all and (max-width: 1024px){
+  .header-left img{
+    height: 36px;
+  }
+  .header-right-link{
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  .header-left{
+    margin-top: 8px;
+  }
+  .header-right{
+    margin-top: 14px;
+  }
+}
+@media all and (max-width: 769px){
+  .header-left{
+    width: 100%;
+    justify-content: space-around;
+  }
+  .header-right{
+    flex-wrap: nowrap;
+    overflow: hidden;
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .header-right-link{
+    margin: 0;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+  }
+  .header-right-link a{
+    margin: 0 0 3px 0;
+  }
+  .nav-toggle:checked ~ .header-right{
+    display: block;
+  }
+  .nav-toggle-label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+}
+
+/* -------------------------- FOOTER STARTS ------------------------- */
+.panel-footer {
+  padding-top: 25px;
+  background-color: #222;
+  width: 100%;
+  height: 45vh;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+.container{
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+section{
+  width: 100%;
+  height: 220px;
+  font-family: Times new roman;
+}
+a{
+  font-size: 20px;
+}
+.panel-footer a, .panel-footer a:hover, .panel-footer a:visited{
+  color: white;
+  font-size: 20px;
+}
+span{
+  color:white;
+  font-size: 30px;
+}
+
+/********** Extra small devices only **********/
+@media (min-height: 576px) and (max-width: 767px) {
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  /*.panel-footer section:nth-child(3) {
+    margin-bottom: 0;
+  }*/
+  .panel-footer section hr {
+    width: 50%;
+  }
+  section{
+    border: 1px dotted grey;
+    width: 100%;
+    height: 250px;
+  }
+  /* End Footer */
+}
+@media (max-width: 575px) {
+
+  #quick{
+    height:155px;
+  }
+  #socia{
+    height:210px;
+  }
+  #scroll{
+    height:175px;
+  }
+}
+/* -------------------------- FOOTER ENDS ----------------------- */
+
+/*--------------------------- Back-to-top button ---------------- */
+.back-to-top {
+  position: fixed;
+  /*display: none;*/
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  background: black;
+  color: #fff;
+  transition: all 0.4s;
+  transform: none;
+}
+
+.back-to-top i:hover, .back-to-top a{
+  background: #343a40;
+  color: #fff;
+  transform: none;
+}
