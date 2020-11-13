@@ -1,3 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
 /* ------------------ NAVBAR STARTS ---------------- */
 .header-nav{
   display: flex;
@@ -38,8 +47,6 @@
 .nav-toggle{
     display: none;
 }
-
-/* ------------------- NAVBAR ENDS ------------------- */
 
 /* Media - Queries */
 @media screen and (min-width: 769px){
@@ -97,6 +104,129 @@
   }
 }
 
+/* ------------------- NAVBAR ENDS ------------------- */
+
+/* ------------------- ABOUT US STARTS ------------------- */
+
+.background-rsu img{
+  width: 100%;
+}
+.back {
+  height: 100vh;
+  background-color: #eeeeee;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 132vh;
+}
+.bcontainer {
+  font-size: 20px;
+  font-family: 'Noticia Text', serif;
+  background-color: #eeeeee;
+  margin-left: 10%;
+  padding-right: 5%;
+}
+
+.title {
+  font-size: 28px;
+  /*font-family: 'Abril Fatface', cursive;*/
+  color: #3523cd;
+}
+
+.box {
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+    width: 22vw;
+    min-width: 200px;
+    height: 22vh;
+    min-height: 200px; 
+    margin-left: 3%;
+    padding-left: 5%;
+    float: left;
+}
+
+.box-shadow {
+    box-shadow: inset 10px 10px 8px -10px #CCC, inset -10px -10px 8px -10px #CCC;
+}
+
+.content-box{
+    text-align: center;
+    padding: 15px;
+    height: 80%;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.content-box:hover{
+    background:#fff;
+    box-shadow: 2px 2px 15px 0 rgba(135,135,135, 0.4);
+    transition: all 0.5s ease 0s;
+    font-size: 22px;
+    color: black;
+    background-color: lightblue;
+}
+/* pules effect */
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+    box-shadow: 0 0 0 0 rgba(70,118,250, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+      box-shadow: 0 0 0 20px rgba(70,118,250, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+      box-shadow: 0 0 0 0 rgba(70,118,250, 0);
+  }
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: #eee;
+  display: -webkit-box;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.house {
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Oak', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.house .bg-fill {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+}
+.house text {
+  fill: #333;
+  -webkit-transition: fill 0.3s ease-in;
+  transition: fill 0.3s ease-in;
+}
+.house:hover .bg-fill, .house.active .bg-fill {
+  opacity: 1;
+}
+.house:hover text, .house.active text {
+  fill: #333;
+}
+
+/* ------------------- ABOUT US ENDS ------------------- */
+
 /* -------------------------- FOOTER STARTS ------------------------- */
 .panel-footer {
   padding-top: 25px;
@@ -112,6 +242,14 @@
   padding-left: 0px;
   padding-top: 0px;
 }
+
+/*.container {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}*/
+
 section{
   width: 100%;
   height: 220px;
