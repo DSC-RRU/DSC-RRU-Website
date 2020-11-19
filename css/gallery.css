@@ -204,9 +204,9 @@ body {
     display: table-cell;
     width: 290px;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px #ffffff solid;
-    padding: 0px 0px 10px 0px;
+    padding: 0px auto;
     margin: 10px 10px 10px 10px;
     background: #fdfcfc;
     color: #333333;
@@ -240,9 +240,9 @@ body {
     height: 400px;
     width: 400px;
     -webkit-border-radius: 20px 20px 20px 20px;
-    border-radius: 25px 25px 25px 25px;
-    padding-bottom: 15px;
-    margin: 10px 10px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
 }
 
 .refCell p {
@@ -272,5 +272,5 @@ body {
 
 .refSep {
     display: table-cell;
-    width: 20px;
+    width: 5px;
 }
