@@ -1,6 +1,17 @@
-!(function($) {
-  "use strict";
+function checkAndActiveAboutUs() {
+  if(window.location.hash === '#abt-us') {
+    var headerLinks = document.querySelectorAll('.header-right-link');
+    headerLinks.forEach(function(x) {
+      x.classList.remove("current-active");
+    })
+    document.getElementById("about-us").classList.add("current-active");
+  }
+}
 
+checkAndActiveAboutUs();
+
+$(function($) {
+  "use strict";
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#abt-us').outerHeight() - 1;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
@@ -10,7 +21,6 @@
       if (target.length) {
 
         var scrollto = target.offset().top - scrolltoOffset;
-
         if ($(this).attr("href") == '#abt-us') {
           scrollto = 0;
         }
@@ -33,9 +43,9 @@
       }
     }
   });
-
   // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
+    window.addEventListener('hashchange', checkAndActiveAboutUs)
     if (window.location.hash) {
       var initial_nav = window.location.hash;
       if ($(initial_nav).length) {
@@ -46,13 +56,11 @@
       }
     }
   });
-  
   // Stick the header at top on scroll
   $("#header").sticky({
     topSpacing: 0,
     zIndex: '50'
   });
-
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -61,7 +69,6 @@
       $('.back-to-top').fadeOut('slow');
     }
   });
-
   $('.back-to-top').click(function() {
     $('html, body').animate({
       scrollTop: 0
@@ -69,13 +76,3 @@
     return false;
   });
 });
-// $(document).ready(function(){
-//     $(".but1").click( function(){
-//         $(window).scrollTop(0);
-//     });
-// });
-
-// window.console = window.console || function(t) {};
-// if (document.location.search.match(/type=embed/gi)) {
-// window.parent.postMessage("resize", "*");
-// }
