@@ -8,6 +8,9 @@ body{
 }
 
 /* ------------------ NAVBAR STARTS ---------------- */
+/*a{
+  font-size: 15px;
+}*/
 .header-nav{
   display: flex;
   justify-content: space-between;
@@ -16,6 +19,7 @@ body{
   background-color: black;
   position: fixed;
   width: 100%;
+  font-size: 16px;
   z-index: 1000;
   top:0;
 }
@@ -232,7 +236,7 @@ body{
   padding-top: 25px;
   background-color: #222;
   width: 100%;
-  height: 35vh;
+  /*height: 35vh;*/
 }
 .container{
   padding-right: 0px;
@@ -246,12 +250,11 @@ section{
   /*height: 200px;*/
   font-family: Times new roman;
 }
-a{
-  font-size: 15px;
-}
+
 .panel-footer a, .panel-footer a:hover, .panel-footer a:visited{
   color: white;
   font-size: 18px;
+  text-align: center;
 }
 span{
   color:white;
