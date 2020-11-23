@@ -124,6 +124,11 @@ html{
     width: 100%;
     position: absolute;
     top:20vh;
+    text-align: center;
+}
+
+.context img{
+    width: 215px;    
 }
 
 .context h1, .context h3{
@@ -493,11 +498,11 @@ html{
 }
 
 .back {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 132vh;
+  /* height: 132vh; */
   background-color: #eeeeee;
 }
 .bcontainer {
@@ -578,7 +583,7 @@ html{
 
 .wrapper {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   background: #eee;
   display: -webkit-box;
   display: flex;
