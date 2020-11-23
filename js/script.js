@@ -53,7 +53,7 @@ function createProjectList() {
         <div class="example-2 card col-md-4">
             <div class="wrapper" style='background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url("` + project.image + `") center / cover no-repeat;'>
                 <div class="header">
-                    <div class="h4" style="opacity:0.9">
+                    <div class="h4">
                         ` + project.header + `
                     </div>
                 </div>
