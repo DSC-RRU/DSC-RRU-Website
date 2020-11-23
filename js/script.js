@@ -51,13 +51,13 @@ function createProjectList() {
     projects.forEach(project => {
         text += `
         <div class="example-2 card col-md-4">
-            <div class="wrapper" style='background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("` + project.image + `") center / cover no-repeat;'>
+            <div class="wrapper" style='background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url("` + project.image + `") center / cover no-repeat;'>
                 <div class="header">
                     <div class="h4" style="opacity:0.9">
                         ` + project.header + `
                     </div>
                 </div>
-                <div class="data" style="backdrop-filter: blur(10px);">
+                <div class="data" style="backdrop-filter: blur(18px);">
                     <div class="content">
                         <span class="author">` + project.author + `</span>
                         <h1 class="title"><a href="#">` + project.title + `</a></h1>
