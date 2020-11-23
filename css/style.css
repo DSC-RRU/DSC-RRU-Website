@@ -8,7 +8,6 @@ html{
   overflow-x: hidden;
 }
 
-
 /* ------------------ NAVBAR STARTS ---------------- */
 /*a{
   font-size: 15px;
@@ -239,6 +238,7 @@ html{
   height: 101vh;
   position: relative;
   top: 0;
+  background-color: #9271ea;
 }
 
 .proj-title img{
@@ -254,7 +254,7 @@ html{
 .proj-title span{
   color: black;
   font-size: 64px;
-  font-family: 'Roboto';
+  font-family: 'Goldman', cursive;
 }
 
 .project-text {
@@ -268,13 +268,14 @@ html{
    position: relative;
    font-size: 2.5rem;
    left: 10%;
-   color: black;
+   color: white;
  }
 
  .project-text .proj-text1{
    font-size: 2rem;
    left: 10%;
    color: black;
+   font-family: 'Texturina', serif;
  }
 
 
@@ -286,6 +287,7 @@ html{
   height: 100vh;
   position: relative;
   top: 0;
+  background-color: #c6c8c9;
 }
 
 .team-title img{
@@ -301,7 +303,7 @@ html{
 .team-title span{
   color: black;
   font-size: 64px;
-  font-family: 'Roboto';
+  font-family: 'Goldman', cursive;
 }
 
 .teams-text {
@@ -322,17 +324,154 @@ html{
    font-size: 2rem;
    left: 10%;
    color: black;
+   font-family: 'Texturina', serif;
  }
 
 
+.team-content {
+  width: 100%;
+  padding: 0 4%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c6c8c9;
+}
+
+@media screen and (max-width: 767px) {
+  .team-content {
+    padding-top: 300px;
+    flex-direction: column;
+  }
+}
+.team-card {
+  width: 100%;
+  max-width: 300px;
+  min-width: 200px;
+  height: 270px;
+  padding-top: 25px;
+  background-color: #3a6b80;
+  margin: 10px;
+  border-radius: 8%;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100%;
+  height: 180px;
+  max-width: 180px;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.icon-inactive {
+  margin: 0 auto;
+  width: 100%;
+  height: 180px;
+  max-width: 180px;
+  border-radius: 20%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.team-card .team-title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.team-card .team-text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
+
+.team-card:hover {
+  height: 270px;
+}
+
+.team-card:hover .info {
+  height: 90%;
+}
+
+.team-card:hover .team-text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height: 40px;
+}
+
+.team-card:hover .icon {
+  display: none;
+}
+
+.team-card:hover .icon-inactive {
+  display: unset;
+}
 /* -------------------------- TEAMS ENDS -------------------------- */
 
 /* ------------------- GALLERY STARTS ------------------ */
+
+.gal-pics {
+  background-color: #30cbf4;
+}
 
 .gal-title {
   height: 100vh;
   position: relative;
   top: 0;
+  background-color: #30cbf4;
 }
 
 .gal-title img{
@@ -348,7 +487,7 @@ html{
 .gal-title span{
   color: black;
   font-size: 64px;
-  font-family: 'Roboto';
+  font-family: 'Goldman', cursive;
 }
 
 .gallery-text {
@@ -369,6 +508,7 @@ html{
    font-size: 2rem;
    left: 10%;
    color: black;
+   font-family: 'Texturina', serif;
  }
 
 .refTable {
@@ -376,6 +516,7 @@ html{
     max-width: 900px;
     width: 90%;
     margin: 0px auto;
+    background-color: #30cbf4;
 }
 
 .refRow {
@@ -388,10 +529,10 @@ html{
     width: 290px;
     text-align: center;
     font-size: 20px;
-    border: 1px #ffffff solid;
+    border: 1px #30cbf4 solid;
     padding: 0px auto;
     margin: 10px 10px 10px 10px;
-    background: #fdfcfc;
+    background: #30cbf4;
     color: #333333;
     -webkit-border-radius: 20px 20px 20px 20px;
     border-radius: 20px 20px 20px 20px;
@@ -406,11 +547,11 @@ html{
     position: absolute;
     top: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: black;
     text-align: center;
     -webkit-transition: top 0.6s ease-in-out;
     left: 0;
-    color: #f7f7f7;
+    color: white;
     text-decoration: none;
 }
 
@@ -462,14 +603,11 @@ html{
 
 /* -------------------------- CONTACT US ENDS ------------------------- */
 
-/**{
-  margin: 0px;
-  padding: 0px;
-}*/
 .con-title {
   height: 100vh;
   position: relative;
   top: 0;
+  background-color: #98df1b;
 }
 
 .con-title img{
@@ -485,7 +623,7 @@ html{
 .con-title span{
   color: black;
   font-size: 64px;
-  font-family: 'Roboto';
+  font-family: 'Goldman', cursive;
 }
 
 .contact-text {
@@ -506,6 +644,7 @@ html{
    font-size: 2rem;
    left: 10%;
    color: black;
+   font-family: 'Texturina', serif;
  }
 
 .mphoto>img

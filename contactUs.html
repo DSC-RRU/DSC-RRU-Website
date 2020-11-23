@@ -6,20 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imgs/favicon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link href="css/icofont/icofont.min.css" rel="stylesheet">
-    <link href="css/contact.css" rel="stylesheet">
     <script src="js/jquery/jquery-3.5.0.js"> </script>
     <script src="js/index.js"> </script>
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link href="imgs/logo.png" rel="icon">
-    <!--Font awesome-->
-    <script src="https://kit.fontawesome.com/335036f2c8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Texturina:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation Bar Start -->
@@ -61,63 +54,84 @@
         </div>
     </div>
     <!-- contact images-->
-    <center>  
-        <div class="contact-container1"> 
-            <div id="facebook">  
-                <!-- Facebook -->
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDsc_Rsu-112477837277940%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    <div style="background-color:#98df1b">
+        <center>  
+            <div class="contact-container1"> 
+                <div class="facebook1">  
+                    <!-- Facebook -->
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDsc_Rsu-112477837277940%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div> 
+                <div class="twitter2"> 
+                    <!-- Twitter -->
+                    <a class="twitter-timeline" data-width="350" data-height="500" href="https://twitter.com/Dsc__RRu?ref_src=twsrc%5Etfw">Tweets by Dsc__RRu</a> 
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div> 
+                <div class="instagram3"> 
+                    <!-- Instagram -->
+                    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                    <div class="elfsight-app-3c85a45b-e569-47f4-9e0c-95884fbe6af3"></div>
+                </div> 
             </div> 
-            <div id="twitter"> 
-                <!-- Twitter -->
-                <a class="twitter-timeline" data-width="350" data-height="500" href="https://twitter.com/Dsc__RRu?ref_src=twsrc%5Etfw">Tweets by Dsc__RRu</a> 
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div> 
-            <div id="instagram"> 
-                <!-- Instagram -->
-                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                <div class="elfsight-app-3c85a45b-e569-47f4-9e0c-95884fbe6af3"></div>
-            </div> 
-        </div> 
-    </center> 
-    <center>  
-        <div class="contact-container2"> 
-           <!-- <div id="form">  
-                <!-- Form 
-                <div>
-                    <h2 class="title" style="color:#4CAF50">Get in Touch</h2>
-                    <p style="font-size:19px">We’d love to talk about how we can work together.</p>
+        </center> 
+        <center>  
+            <div class="contact-container2"> 
+                <!-- Form -->
+                <!-- <div id="form">   
+                    <div>
+                        <h2 class="title" style="color:#4CAF50">Get in Touch</h2>
+                        <p style="font-size:19px">We’d love to talk about how we can work together.</p>
+                    </div>
+                    <form class="contact-form" id="contact_form_submit">
+                        <div class="form-group">
+                            <label for="name">Name <span>*</span></label>
+                            <input type="text" placeholder="Enter Your Full Name" name="name" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email <span>*</span></label>
+                            <input type="text" placeholder="Enter Your Email" name="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject <span>*</span></label>
+                            <input type="text" placeholder="Enter Your Subject" name="subject" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message <span>*</span></label>
+                            <textarea name="message" id="message" placeholder="Enter Your Message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Send Message">
+                        </div>
+                    </form> 
+                </div> -->
+                <div class="location">
+                    <div>  
+                        <img src="./imgs/location.png" alt="location" align="left">
+                        <span>Rashtriya Raksha University<br></span>
+                        <span>Lavad, Gandhinagar-382305</span>
+                    </div>
+                    <div>
+                        <img src="./imgs/contact.png" alt="contact" align= "left">
+                        <span>Email us here<br>
+                            <a href="Mailto:dscrsu@rsu.ac.in">dscrsu@rsu.ac.in</a>
+                        </span>
+                    </div>
+                    <!--<div class="info-item">
+                        <div class="info-thumb">
+                            <img src="./assets/images/contact/contact02.png" alt="contact">
+                        </div> 
+                        <div class="info-content">
+                            <h6 class="title">Email</h6>
+                            <a href="Mailto:something@rsu.ac.in">something@rsu.ac.in</a>
+                        </div>
+                    </div>-->
                 </div>
-                <form class="contact-form" id="contact_form_submit">
-                    <div class="form-group">
-                        <label for="name">Name <span>*</span></label>
-                        <input type="text" placeholder="Enter Your Full Name" name="name" id="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email <span>*</span></label>
-                        <input type="text" placeholder="Enter Your Email" name="email" id="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject <span>*</span></label>
-                        <input type="text" placeholder="Enter Your Subject" name="subject" id="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message <span>*</span></label>
-                        <textarea name="message" id="message" placeholder="Enter Your Message" required></textarea>
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" value="Send Message">
-                    </div>
-                </form> -->
-                <div>
-                    <p style="font-size:22px; font-style:italic; font-style:bold; color:#4CAF50">Rashtriya Raksha University<br>Lavad, Gandhinagar-382305</p>
-                </div>
-            </div>  
-            <div id="map"> 
-                <!-- Map -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.2578328973!2d72.88242772409983!3d23.1545312748327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e79669090a90d%3A0xff7f6e64bed7fcf6!2sRashtriya%20Raksha%20University%20(A%20Central%20University)!5e1!3m2!1sen!2sin!4v1605977827461!5m2!1sen!2sin" width="300" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <div class="map"> 
+                    <!-- Map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.2578328973!2d72.88242772409983!3d23.1545312748327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e79669090a90d%3A0xff7f6e64bed7fcf6!2sRashtriya%20Raksha%20University%20(A%20Central%20University)!5e1!3m2!1sen!2sin!4v1605977827461!5m2!1sen!2sin" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div> 
             </div> 
-        </div> 
-    </center> 
+        </center> 
+    </div>
     <!--contact end --> 
     <!-- Footer -->
         <footer class="panel-footer">
