@@ -6,96 +6,162 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imgs/favicon.png">
+
+    <script src="js/jquery/jquery-3.5.0.js"></script>
+    <script src="js/index.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
     <link href="css/icofont/icofont.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery/jquery-3.5.0.js"> </script>
-    <script src="js/index.js"> </script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Texturina:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <style>
+        /********************** Header CSS **********************/
+        
+        .project-header {
+            background-color: #97df1b25;
+            /* height: 100vh; */
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        
+        .project-header .row {
+            margin: 15px;
+        }
+        
+        .project-header span {
+            color: black;
+            font-size: 64px;
+            font-family: 'Goldman', cursive;
+        }
+        
+        .project-header p {
+            font-size: 2rem;
+            left: 10%;
+            color: black;
+            font-family: 'Texturina', serif;
+        }
+    </style>
 </head>
+
 <body>
     <!-- Navigation Bar Start -->
-    <header class="header-nav">  
+    <header class="header-nav" style="position: relative;">
         <div class="header-left">
             <img src="./imgs/DSC_LOGO.png">
         </div>
         <input type="checkbox" class="nav-toggle" id="nav-toggle">
         <div class="header-right">
-            <a href="./index.html" class="header-right-link"><li class="header-right-link"> 
-              Home
-            </li></a>
-            <a href="./index.html#abt-us" class="header-right-link"><li class="header-right-link"> 
-              About Us
-            </li></a>
-            <a href="./projects.html" class="header-right-link"><li class="header-right-link"> 
-              Projects
-            </li></a>
-            <a href="./teams.html" class="header-right-link"><li class="header-right-link"> 
-              Teams
-            </li></a>
-            <a href="./gallery.html" class="header-right-link"><li class="header-right-link"> 
-              Gallery
-            </li></a>
-            <a href="./contactUs.html" class="current-active header-right-link"><li class="header-right-link"> 
-              Contact Us
-            </li></a>
+            <a href="./index.html" class="header-right-link">
+                <li class="header-right-link">
+                    Home
+                </li>
+            </a>
+            <a href="./index.html#abt-us" class="header-right-link">
+                <li class="header-right-link">
+                    About Us
+                </li>
+            </a>
+            <a href="./projects.html" class="header-right-link">
+                <li class="header-right-link">
+                    Projects
+                </li>
+            </a>
+            <a href="./teams.html" class="header-right-link">
+                <li class="header-right-link">
+                    Teams
+                </li>
+            </a>
+            <a href="./gallery.html" class="header-right-link">
+                <li class="header-right-link">
+                    Gallery
+                </li>
+            </a>
+            <a href="./contactUs.html" class="current-active header-right-link">
+                <li class="header-right-link">
+                    Contact Us
+                </li>
+            </a>
         </div>
         <label for="nav-toggle" class="nav-toggle-label">
             <i class="fa fa-bars" style="font-size:28px;color: white"></i>
         </label>
     </header>
-    <!-- Navigation Bar Ends -->
-    <div class="con-title">
-        <img src="imgs/contactus.png">
-        <div class="contact-text con-text">
-            <span>Find Us Here</span> <br>
-            <p class="con-text1">Queries?? Ohh you've find us!</p>
+
+    <!-- PAGE HEADER START -->
+    <div class="container-fluid project-header">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <span>Find Us Here</span> <br>
+                <p>Queries?? Ohh you've find us!</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="img-responsive" src="imgs/contactus.png" alt="Contact Us Illustration">
+            </div>
         </div>
     </div>
+
+    <!-- PAGE HEADER END -->
+
     <!-- contact images-->
-    <div style="background-color: #97df1b25">
-        <center>  
-            <div class="contact-container1"> 
-                <div class="facebook1">  
+    <div class="container-fluid">
+        <center>
+            <div class="row">
+                <div class="facebook1 col-md-4">
                     <!-- Facebook -->
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDsc_Rsu-112477837277940%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                </div> 
-                <div class="twitter2"> 
+                    <h3>Facebook</h3>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDsc_Rsu-112477837277940%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350"
+                        height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+                <div class="twitter2 col-md-4">
                     <!-- Twitter -->
-                    <a class="twitter-timeline" data-width="350" data-height="500" href="https://twitter.com/Dsc__RRu?ref_src=twsrc%5Etfw">Tweets by Dsc__RRu</a> 
+                    <h3>Twitter</h3>
+                    <a class="twitter-timeline" data-width="350" data-height="500" href="https://twitter.com/Dsc__RRu?ref_src=twsrc%5Etfw">Tweets by Dsc__RRu</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div> 
-                <div class="instagram3"> 
+                </div>
+                <div class="instagram3 col-md-4">
                     <!-- Instagram -->
+                    <h3>Instagram</h3>
                     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                     <div class="elfsight-app-3c85a45b-e569-47f4-9e0c-95884fbe6af3"></div>
-                </div> 
-            </div> 
-        </center> 
-        <center>  
-            <div class="contact-container2"> 
-                <div class="location" style="text-align:left; width:20vw;">
-                    <div>  
-                        <img src="./imgs/location.png" alt="location" align="left">
-                        <span style="padding-left:10px;"> Rashtriya Raksha University<br></span>
-                        <span style="padding-left:10px;"> Lavad, Gandhinagar-382305</span>
+                </div>
+            </div>
+        </center>
+        <center style="margin-top: 55px;margin-bottom: 20px;">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <i class="fas fa-map-marker-alt fa-2x"></i>
+                        </div>
+                        <div class="col-12">
+                            <span> Rashtriya Raksha University<br></span>
+                            <span> Lavad, Gandhinagar-382305</span>
+                        </div>
                     </div>
-                    <div>
-                        <img src="./imgs/contact.png" alt="contact" align= "left">
-                        <span style="padding-left:10px;"> Email us here<br>
-                            <a href="Mailto:dscrsu@rsu.ac.in" style="padding-left:10px;"> dscrsu@rsu.ac.in</a>
-                        </span>
+                    <div class="row">
+                        <div class="col-12">
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </div>
+                        <div class="col-12">
+                            <span> Email us here<br>
+                                <a href="Mailto:dscrsu@rsu.ac.in" style="padding-left:10px;"> dscrsu@rsu.ac.in</a>
+                            </span>
+                        </div>
                     </div>
                 </div>
-                <div class="map"> 
+                <div class="col-md-8">
                     <!-- Map -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.2578328973!2d72.88242772409983!3d23.1545312748327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e79669090a90d%3A0xff7f6e64bed7fcf6!2sRashtriya%20Raksha%20University%20(A%20Central%20University)!5e1!3m2!1sen!2sin!4v1605977827461!5m2!1sen!2sin" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div> 
-            </div> 
-        </center> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.2578328973!2d72.88242772409983!3d23.1545312748327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e79669090a90d%3A0xff7f6e64bed7fcf6!2sRashtriya%20Raksha%20University%20(A%20Central%20University)!5e1!3m2!1sen!2sin!4v1605977827461!5m2!1sen!2sin"
+                        width="750" height="400" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </center>
     </div>
-    <!--contact end --> 
+    <!--contact end -->
     <!-- Footer -->
     <footer class="panel-footer">
         <div class="container">
