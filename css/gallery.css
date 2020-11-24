@@ -1,0 +1,113 @@
+.bclass {
+    margin: 0px auto;
+    padding: 0px auto;
+    min-height: 10em;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+
+
+/* .bcontainer {
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.bcontainer .card {
+    position: relative;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.bcontainer .card .icon {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgb(56, 100, 31); */
+    transition: 0.7s;
+    z-index: 1;
+}
+
+.bcontainer .card .icon img {
+    height: 250px;
+    /* width: 100%; */
+}
+
+.bcontainer .card .face {
+    /* width: 300px;
+    height: 200px; */
+    transition: 0.5s;
+}
+
+.bcontainer .card .face.face1 {
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(50px);
+}
+
+.bcontainer .card:hover .face.face1 {
+    background: #30caf4;
+    transform: translateY(0px);
+}
+
+.bcontainer .card .face.face1 .content {
+    opacity: 1;
+    /* backdrop-filter: blur(10px); */
+    transition: 0.5s;
+}
+
+.bcontainer .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.bcontainer .card .face.face1 .content i {
+    max-width: 100px;
+}
+
+.bcontainer .card .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.bcontainer .card:hover .face.face2 {
+    transform: translateY(0);
+}
+
+.bcontainer .card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #414141;
+}
+
+.bcontainer .card .face.face2 .content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    color: #414141;
+}
+
+.bcontainer a {
+    text-decoration: none;
+    color: #414141;
+}

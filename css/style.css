@@ -500,7 +500,7 @@ html{
   height: 132vh;
   background-color: #eeeeee;
 }
-.bcontainer {
+.bcontainer-index {
   font-size: 20px;
   background-color: white;
   margin-left: 10%;
@@ -1102,7 +1102,7 @@ a:hover{
   }
 }
 
-@media (max-width: : 499px)
+@media (max-width: 499px)
 {
   .bphoto{
     padding-left: 100px;

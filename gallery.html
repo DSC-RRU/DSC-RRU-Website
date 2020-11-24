@@ -1,23 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <title>Glimpse of Us</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="imgs/favicon.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="css/icofont/icofont.min.css" rel="stylesheet">
+
     <script src="js/jquery/jquery-3.5.0.js"></script>
     <script src="js/index.js"></script>
+
+    <link href="css/icofont/icofont.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/gallery.css" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Texturina:wght@200&display=swap" rel="stylesheet">
+
+    <style>
+        /********************** Header CSS **********************/
+        
+        .project-header {
+            background-color: #30cbf4;
+            /* height: 100vh; */
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        
+        .project-header .row {
+            margin: 15px;
+        }
+        
+        .project-header span {
+            color: black;
+            font-size: 64px;
+            font-family: 'Goldman', cursive;
+        }
+        
+        .project-header p {
+            font-size: 2rem;
+            left: 10%;
+            color: black;
+            font-family: 'Texturina', serif;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Navigation Bar Start -->
-    <header class="header-nav">
+    <header class="header-nav" style="position: relative;">
         <div class="header-left">
             <img src="./imgs/DSC_LOGO.png">
         </div>
@@ -59,68 +92,318 @@
         </label>
     </header>
     <!-- Navigation Bar Ends -->
-    <div class="gal-title ">
-        <img src="imgs/Gallery.png"> 
+    <!-- <div class="gal-title ">
+        <img src="imgs/Gallery.png">
         <div class="gallery-text gal-text">
-        <span>Gallery</span> <br>
-            <p class="gal-text1"> Here are some of the pictures to show how our students work together under an awesome environment to build useful projects!!</p>
+
+        </div>
+    </div> -->
+
+    <!-- PAGE HEADER START -->
+    <div class="container-fluid project-header">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <span>Gallery</span> <br>
+                <p> Here are some of the pictures to show how our students work together under an awesome environment to build useful projects!!</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="img-responsive" src="imgs/Gallery.png" alt="Gallery Illustration">
+            </div>
         </div>
     </div>
 
-    <!-- Image Overlay starts-->
-    <div class="gal-pics">
-        <!-- Top 3 photos -->
-        <div class="refTable">
-            <div class="refRow">
-                <div class="refCell"><img class="fadePic scale" src="imgs\gallery\gal1.jpg" />
-                    <a href="#" class="info">Microsoft Azure Seminar</a>
+    <!-- PAGE HEADER END -->
+
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 50px;margin-bottom: 50px;">
+            <div class="col-md-4 col-sm-6 col-xs-12 bcontainer">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./imgs/gallery/gal1.jpg" style="height: 250px; width: 300px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>This was Microsoft Azure Session.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="refSep"></div>
-                <div class="refCell"><img class="fadePic scale" src="imgs\gallery\gal2.jpg" />
-                    <a href="#" class="info">Department Facutly</a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 bcontainer">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./imgs/gallery/gal2.jpg" style="height: 250px; width: 300px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Esteemed Faculty @RRU</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="refSep"></div>
-                <div class="refCell"><img class="fadePic scale" src="imgs\gallery\gal3.jpg" />
-                    <a href="#" class="info">Cyber Sec & Forensics Session</a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 bcontainer">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./imgs/gallery/gal3.jpg" style="height: 250px; width: 300px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Cyber Security Session.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 bcontainer">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./imgs/gallery/gal4.jpg" style="height: 250px; width: 300px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Techno Castle 2k19</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 bcontainer">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./imgs/gallery/gal5.jpg" style="height: 250px; width: 300px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Azure Workshop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 bcontainer">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./imgs/gallery/gal6.jpg" style="height: 250px; width: 300px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>faculty's meet-up</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 bcontainer">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./imgs/gallery/gal7.jpg" style="height: 250px; width: 300px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Techno Castle preparation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 bcontainer">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./imgs/gallery/gal8.jpg" style="height: 250px; width: 300px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Faculty Validation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 bcontainer">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./imgs/gallery/gal9.jpg" style="height: 250px; width: 300px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Techno Castle Preps</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <br><br>
-        <!-- Middle 3 photos -->
-        <div class="refTable">
-            <div class="refRow">
-                <div class="refCell"><img class="fadePic scale" src="imgs\gallery\gal4.jpg" />
-                    <a href="#" class="info">Techno Castle</a>
-                </div>
-                <div class="refSep"></div>
-                <div class="refCell"><img class="fadePic scale" src="imgs\gallery\gal5.jpg" />
-                    <a href="#" class="info">Hands-on Workshop</a>
-                </div>
-                <div class="refSep"></div>
-                <div class="refCell"><img class="fadePic scale" src="imgs\gallery\gal6.jpg" />
-                    <a href="#" class="info">Info Session</a>
-                </div>
-            </div>
-        </div>
-        <br><br>
-        <!-- Last 3 photos -->
-        <div class="refTable">
-            <div class="refRow">
-                <div class="refCell"><img class="fadePic scale" src="imgs\gallery\gal7.jpg" />
-                    <a href="#" class="info">Behind the scenes</a>
-                </div>
-                <div class="refSep"></div>
-                <div class="refCell"><img class="fadePic scale" src="imgs\gallery\gal8.jpg" />
-                    <a href="#" class="info">Inductions</a>
-                </div>
-                <div class="refSep"></div>
-                <div class="refCell"><img class="fadePic scale" src="imgs\gallery\gal9.jpg" />
-                    <a href="#" class="info">Behind the scenes</a>
-                </div>
-            </div>
-        </div><br><br>
-        <!-- Image Overlay end-->
     </div>
+
+    <!--     
+    <div class="bclass">
+        <div class="bcontainer">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="./imgs/gallery/gal1.jpg" style="height: 250px; width: 300px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>This was Microsoft Azure Session.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="./imgs/gallery/gal2.jpg" style="height: 250px; width: 300px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Esteemed Faculty @RRU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="./imgs/gallery/gal3.jpg" style="height: 250px; width: 300px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Cyber Security Session.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bclass">
+        <div class="bcontainer">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="./imgs/gallery/gal4.jpg" style="height: 250px; width: 300px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Techno Castle 2k19</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="./imgs/gallery/gal5.jpg" style="height: 250px; width: 300px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Azure Workshop</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="./imgs/gallery/gal6.jpg" style="height: 250px; width: 300px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>faculty's meet-up</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bclass">
+        <div class="bcontainer">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="./imgs/gallery/gal7.jpg" style="height: 250px; width: 300px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Techno Castle preparation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="./imgs/gallery/gal8.jpg" style="height: 250px; width: 300px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Faculty Validation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="./imgs/gallery/gal9.jpg" style="height: 250px; width: 300px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Techno Castle Preps</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
     <!-- Footer -->
     <footer class="panel-footer">
         <div class="container">
