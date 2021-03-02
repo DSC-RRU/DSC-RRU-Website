@@ -123,7 +123,7 @@ function createFooter() {
         <div class="row" style="margin-left: 10%;margin-right: 10%;">
             <section id="quick" class="col-md-offset-2 col-md-3 col-sm-4 col-xs-12">
                 <p>Quick Links</p>
-                <a href="https://www.rsu.ac.in" target="_blank">Rashtriya Raksha University</a><br>
+                <a href="https://www.rru.ac.in" target="_blank">Rashtriya Raksha University</a><br>
                 <a href="https://docs.google.com/document/d/1DRbb0VUGORYI9epY3INSEfkWT_SO7EKVQTsieeA3MR4/edit" target="_blank">Code of Conduct</a><br>
                 <a href="https://docs.google.com/document/d/1TDQdYO0Dm0osDrFzyqfe1MjemHMJMdpCQFZVUI4Y-qk/edit" target="_blank">FAQs</a><br>
             </section>
@@ -144,7 +144,7 @@ function createFooter() {
             </section>
         </div>
         <hr style="border-top: 1px solid #f8f9fa;">
-        <div align="center" class="copyright"> Copyright &copy; Developer Student Club - <a href="https://rsu.ac.in" target="_blank" style="color: yellow">Rashtriya Raksha University</a></div>
+        <div align="center" class="copyright"> Copyright &copy; Developer Student Club - <a href="https://rru.ac.in" target="_blank" style="color: yellow">Rashtriya Raksha University</a></div>
     </div>
     `;
 
