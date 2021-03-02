@@ -1,9 +1,9 @@
-# DSC-RSU-Website
+# DSC-RRU-Website
 
 Developer Student Clubs are completely non-profitable university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.
-DSC RSU was established in August, 2020 at Raksha Shakti University campus for School of Information Technology and Cyber Security. The official website under Google Developer’s DSC can be found [here](https://dsc.community.dev/raksha-shakti-university/) and the website under the Club can be found [here](https://dsc-rsu.github.io/DSC-RSU-Website/)
+DSC RRU was established in August, 2020 at Rashtriya Raksha University campus for School of Information Technology and Cyber Security. The official website under Google Developer’s DSC can be found <b>[HERE](https://dsc.community.dev/rashtriya-raksha-university/)</b> and the website under the Club can be found <b>[HERE](https://dsc-rru.github.io/DSC-RRU-Website/)</b>
 
-## The DSC RSU will plan several things listed below:
+## The DSC RRU will plan several things listed below:
 
 - Online sessions on students interested topics
 - Weekly meetups to have a count on the work and monthly meet with experts to get suggestions
@@ -12,11 +12,11 @@ DSC RSU was established in August, 2020 at Raksha Shakti University campus for S
 - Hands-on workshops
 - Work on projects throughout the year on to-be-decide problem statements
 - Collaborate with different industries or organisations or platforms to bring real world experience for peers
-- Aim to represent RSU by participating in Google Solution Challenge 2021 by solving local community problems with particular Terms & Conditions.
+- Aim to represent RRU by participating in Google Solution Challenge 2021 by solving local community problems with particular Terms & Conditions.
 - Teach technical skills in terms of developing through coding
-- Last but most awaited one, to arrange one DevFest or GDG event in RSU
+- Last but most awaited one, to arrange one DevFest or GDG event in RRU
 
-*This project is build by students of this Developers Student Club Raksha Shakti University Chapter*
+*This project is build by students of this Developers Student Club Rashtriya Raksha University Chapter*
 
 ---
 ## Tech
