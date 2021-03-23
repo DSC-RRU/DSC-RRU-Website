@@ -140,7 +140,7 @@ function createFooter() {
                 <a href="index.html#abt-us">About Us</a><br>
                 <a href="teams.html">Team</a><br>
                 <a href="projects.html">Projects</a><br>
-                <a href="contactus.html">Contact Us</a><br>
+                <a href="contactUs.html">Contact Us</a><br>
             </section>
         </div>
         <hr style="border-top: 1px solid #f8f9fa;">
