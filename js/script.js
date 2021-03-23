@@ -131,9 +131,9 @@ function createFooter() {
                 <p>Social Links</p>
                 <a href="https://dsc.community.dev/raksha-shakti-university/" target="_blank">Developer Student Club</a><br>
                 <a href="https://facebook.com/dsc.rsu.7" target="_blank">Facebook</a><br>
-                <a href="https://twitter.com/Dsc__Rsu" target="_blank">Twitter</a><br>
-                <a href="https://www.linkedin.com/in/dsc-rsu-7b53011b8/" target="_blank">Linkedin</a><br>
-                <a href="https://www.instagram.com/dscrsu/" target="_blank">Instagram</a><br>
+                <a href="https://twitter.com/Dsc__RRu" target="_blank">Twitter</a><br>
+                <a href="https://www.linkedin.com/in/dsc-rru-7b53011b8/" target="_blank">Linkedin</a><br>
+                <a href="https://www.instagram.com/dscrru/" target="_blank">Instagram</a><br>
             </section>
             <section id="scroll" class="col-md-3 col-sm-4 col-xs-12">
                 <p>Scroll To</p>
